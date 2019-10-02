@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: #FFF;
+  font-size: 1.5vmin;
+}
+
+.test1 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5vmin;
+  line-height: 6vmin;
+  margin: 0 25vmin 10vmin 25vmin;
+  text-align: center;
+  /* margin-bottom: 10vmin; */
+}
+
+.test1 p {
+  font-size: 2.5vmin;
+}
+
+.test2Wrapper, .test3 {
+  display: flex;
+  justify-content: center !important;
+  text-align: justify;
+  margin: 0 25vmin 0 25vmin;
+  line-height: 6vmin;
+  letter-spacing: 2vmin;
+}
+
+.test2 {
+  width: 50%;
+  margin: 0 3vmin 0 3vmin;
+}
+
+.test2 p {
+  font-size: 1.5vmin;
+}
+
+.test3 {
+  width: 50%;
+}
